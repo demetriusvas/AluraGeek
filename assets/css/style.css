@@ -1,0 +1,15 @@
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.cabecalho-titulo {
+	margin-bottom: 10px;
+}
+
+.botao-login {
+    background-color: transparent;
+    height: 40px;
+    width: 130px;
+    border: solid 1px #2A7AE4;
+}
