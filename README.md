@@ -1,7 +1,7 @@
 <h1 align="center">Challenge Front-End da Alura</h1>
 <h2 align="center">AluraGeek</h2>
 
-<p>site e o e-commerce deve conter os seguintes requisitos:</p>
+<p>Será desenvolvido o site e o e-commerce com os seguintes requisitos:</p>
 
 <p>- Uma página inicial que contenha um botão "iniciar sessão" e um buscador de produtos oferecidos pela empresa.</p>
 
