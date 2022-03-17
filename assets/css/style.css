@@ -1,7 +1,13 @@
 .container {
     width: 85%;
     margin: 0 auto;
+    display: flex;
+    background-color: antiquewhite;
+    align-items: center;
+    border: solid 1px greenyellow;
+    justify-content: center;
 }
+
 
 .cabecalho-titulo {
 	margin-bottom: 10px;
