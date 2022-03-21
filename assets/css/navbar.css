@@ -4,4 +4,33 @@ body {
 
 .navbar {
   margin-bottom: 10px;
+  height: 115px;
+}
+
+.input-pesquisa {
+  border-radius: 20px;
+  height: 40px;
+}
+
+#btn-login {
+  width: 182px;
+  height: 51px;
+}
+
+.submit-lente {
+  position:absolute;
+  top: 7px; right:5px;
+  z-index:10;
+  border:none;
+  background:transparent;
+  outline:none;
+}
+
+.submit-line {
+  position: relative;
+  width: 393px;
+}
+
+.submit-line input {
+  width: 100%;
 }
