@@ -24,5 +24,8 @@ form {
 }
 
 input[type='text']{
-  border: solid 1px blue;   
+  border: solid 1px blue;
+  background-image: url(../images/Icone-pesquisa.png);
+  background-position: 355px 5px;
+  background-repeat: no-repeat;
 }
