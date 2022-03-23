@@ -4,7 +4,6 @@ body {
 
 .navbar {
   margin-bottom: 20px;
-  height: 115px;
 }
 
 .input-search {
@@ -12,6 +11,7 @@ body {
   border-radius: 20px;
   border: none;
   background-color: #f5f5f5;
+  padding: 8px 16px;
 }
 
 #btn-login {
@@ -19,13 +19,30 @@ body {
   height: 50px;
 }
 
-form {
-  border: solid 1px red;
+input[type='text']{
+  background-image: url(../images/Icone-pesquisa.png);
+  background-position: 355px 6px;
+  background-repeat: no-repeat;
 }
 
-input[type='text']{
-  border: solid 1px blue;
-  background-image: url(../images/Icone-pesquisa.png);
-  background-position: 355px 5px;
-  background-repeat: no-repeat;
+@media screen and (max-width: 991px) {
+  .input-search {
+    border: solid 1px red;
+    margin: 0 auto;
+  }
+
+  #btn-login {
+    border: solid 1px green;
+  }
+}
+
+@media screen and (max-width: 441px) {
+  .input-search {
+    border: solid 1px red;
+    margin: 0 auto;
+  }
+
+  #btn-login {
+    border: solid 1px green;
+  }
 }
